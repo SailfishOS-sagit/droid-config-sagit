@@ -21,6 +21,9 @@ Requires:
 - libhybris-libGLESv2
 - libhybris-libwayland-egl
 
+# Telephony
+- ofono-ril-binder-plugin
+
 # Sensors
 - hybris-libsensorfw-qt5
 
@@ -32,6 +35,8 @@ Requires:
 - qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
+#- pulseaudio-modules-droid-glue
+#- pulseaudio-modules-droid-hidl
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
