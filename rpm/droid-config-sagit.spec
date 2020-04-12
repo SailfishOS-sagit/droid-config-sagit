@@ -5,7 +5,7 @@
 %define device_pretty Mi 6 (sagit)
 %define dcd_path ./
 # Adjust this for your device
-%define pixel_ratio 2.0
+%define pixel_ratio 1.8
 
 # Community HW adaptations need this
 %define community_adaptation 1
