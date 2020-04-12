@@ -25,6 +25,9 @@ Requires:
 - ofono-ril-binder-plugin
 - dummy_netd
 
+# Bluetooth
+- bluebinder
+
 # Sensors
 - hybris-libsensorfw-qt5
 
