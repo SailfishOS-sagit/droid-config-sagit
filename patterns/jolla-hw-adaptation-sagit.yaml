@@ -24,6 +24,9 @@ Requires:
 # Telephony
 - ofono-ril-binder-plugin
 
+# Bluetooth
+- bluebinder
+
 # Sensors
 - hybris-libsensorfw-qt5
 
