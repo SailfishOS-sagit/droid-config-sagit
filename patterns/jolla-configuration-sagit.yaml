@@ -37,5 +37,8 @@ Requires:
 # to improve camera startup times and the like
 - mapplauncherd-booster-silica-qt5-media
 
+# Other packages
+- mce-tools
+
 Summary: Jolla Configuration sagit
 
