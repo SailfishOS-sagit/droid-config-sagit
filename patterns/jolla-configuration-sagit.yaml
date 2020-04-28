@@ -40,5 +40,16 @@ Requires:
 # Other packages
 - mce-tools
 
+# These are very important apps,
+# we want them because that's how a phone is supposed to be.
+- sailfish-office
+- jolla-calculator
+- jolla-email
+- jolla-notes
+- jolla-clock
+- jolla-mediaplayer
+- jolla-calendar
+- sailfish-weather
+
 Summary: Jolla Configuration sagit
 
