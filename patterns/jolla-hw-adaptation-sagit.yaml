@@ -37,11 +37,14 @@ Requires:
 # Needed for /dev/touchscreen symlink
 - qt5-plugin-generic-evdev
 
+# Audio
 - pulseaudio-modules-droid
-- pulseaudio-modules-droid-glue
 - pulseaudio-modules-droid-hidl
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
+
+# Camera
+- audioflingerglue
 
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 - qt5-qtwayland-wayland_egl
