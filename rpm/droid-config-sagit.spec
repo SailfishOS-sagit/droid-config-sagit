@@ -2,7 +2,8 @@
 %define device sagit
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
-%define device_pretty Mi 6 (sagit)
+%define device_pretty Mi 6
+%define rpm_device sagit
 %define dcd_path ./
 # Adjust this for your device
 %define pixel_ratio 1.8
