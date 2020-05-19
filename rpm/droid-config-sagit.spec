@@ -15,6 +15,8 @@
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 
+Obsoletes: qt5-qpa-surfaceflinger-plugin
+
 # Obsolete unnecessary PA glue module (we still need audioflingerglue for camera)
 Obsoletes: pulseaudio-modules-droid-glue
 
