@@ -274,6 +274,7 @@ service vendor.qseecomd /vendor/bin/qseecomd
     class core
     user root
     group root
+    disabled
 
 service vendor.thermal-engine /vendor/bin/thermal-engine -T
     class main

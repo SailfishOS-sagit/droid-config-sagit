@@ -25,7 +25,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import /vendor/etc/init/hw/init.qcom.usb.rc
+#import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
 
 on early-init
@@ -233,12 +233,14 @@ service vendor.ipacm /vendor/bin/ipacm
     user radio
     group radio inet
     writepid /dev/cpuset/system-background/tasks
+    disabled
 
 service vendor.dataqti /vendor/bin/qti
     class main
     user radio
     group radio oem_2901 diag usb net_admin
     writepid /dev/cpuset/system-background/tasks
+    disabled
 
 service vendor.sensors /vendor/bin/sensors.qti
     class main
@@ -315,6 +317,7 @@ service vendor.time_daemon /vendor/bin/time_daemon
     user root
     group root
     writepid /dev/cpuset/system-background/tasks
+    disabled
 
 service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core
