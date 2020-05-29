@@ -292,6 +292,7 @@ service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 service vendor.panel-info /vendor/bin/init.panel_info.sh
     class core
     user root
+    disabled
     oneshot
 
 service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
