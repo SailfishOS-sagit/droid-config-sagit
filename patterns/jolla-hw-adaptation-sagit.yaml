@@ -41,6 +41,8 @@ Requires:
 # Audio
 - pulseaudio-modules-droid
 - pulseaudio-modules-droid-hidl
+- audiosystem-passthrough-dummy-af
+
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
