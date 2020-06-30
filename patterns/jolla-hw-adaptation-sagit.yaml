@@ -29,7 +29,7 @@ Requires:
 - bluebinder
 
 # Sensors
-- hybris-libsensorfw-qt5
+- hybris-libsensorfw-qt5-binder
 
 # Vibra
 - ngfd-plugin-native-vibrator
