@@ -18,6 +18,9 @@ Requires:
 # For multi-SIM devices
 - jolla-settings-networking-multisim
 
+#Include SailfishSecrets support
+- sailfishsecretsdaemon-secretsplugins-default
+
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
 - jolla-settings-accounts-extensions-3rd-party-all
