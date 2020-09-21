@@ -9,7 +9,7 @@
 gpasswd -a nemo system
 
 # Android Storage linking
-m_path="/data/media"
+m_path="/data/android/media"
 [ -d "$m_path/0" ] && m_path+="/0"
 
 rm -f /home/nemo/android_storage /sdcard
