@@ -90,6 +90,7 @@ Requires:
 #- jolla-mediaplayer-radio
 
 # NFC for devices using Android 8 or newer as base
+- nfcd-mce-plugin
 - nfcd-binder-plugin
 - jolla-settings-system-nfc
 
