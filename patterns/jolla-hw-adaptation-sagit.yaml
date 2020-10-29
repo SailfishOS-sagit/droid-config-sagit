@@ -41,13 +41,12 @@ Requires:
 # Audio
 - pulseaudio-modules-droid
 - pulseaudio-modules-droid-hidl
+
+# Camera
 - audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
-
-# Camera
-- audioflingerglue
 
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 - qt5-qtwayland-wayland_egl
