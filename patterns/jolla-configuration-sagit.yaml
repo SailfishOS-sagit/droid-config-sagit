@@ -50,6 +50,7 @@ Requires:
 - jolla-mediaplayer
 - jolla-calendar
 - sailfish-weather
+- sailfish-utilities
 
 Summary: Jolla Configuration sagit
 
