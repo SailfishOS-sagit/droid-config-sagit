@@ -4,13 +4,13 @@
 # We're done here if this isn't the first boot
 [ -f /var/tmp/made-droid-links ] && exit 0
 
+# Determine username since SFOS 3.4.0
+user="nemo"
+id defaultuser &> /dev/null && user="defaultuser"
+
 # Android Storage linking
 m_path="/data/android/media"
 [ -d "$m_path/0" ] && m_path+="/0"
-
-# Determine username since SFOS 3.4.0
-user="nemo"
-[ -d /home/defaultuser ] && user="defaultuser"
 
 # TODO: Start symlinking in Pictures/Android, Music/Android, ...
 rm -f /home/$user/android_storage /sdcard
