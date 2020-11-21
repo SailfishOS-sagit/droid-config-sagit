@@ -2,7 +2,6 @@ pushd $IMG_OUT_DIR # ./sfe-$DEVICE-$RELEASE_ID
 
 DEVICE=@DEVICE@
 EXTRA_NAME=@EXTRA_NAME@
-DATE=$(date +"%Y%m%d") # 20191101
 
 # Source release info e.g. VERSION
 source ./os-release
@@ -25,7 +24,7 @@ echo "[hybris-installer] Estimated rootfs size when installed: ${IMAGE_SIZE}M"
 
 # Output filenames
 DST_IMG=sfos-rootfs.tar.bz2
-DST_PKG=$ID-$VERSION_ID-$DATE-$DEVICE$EXTRA_NAME # sailfishos-3.2.0.12-20191101-$DEVICE
+DST_PKG=$ID-$VERSION_ID-$DATE-$DEVICE$EXTRA_NAME # sailfishos-3.2.0.12-$DEVICE
 
 # Clone hybris-installer if not preset (e.g. porters-ci build env)
 if [ ! -d ../hybris/hybris-installer/ ]; then
@@ -39,7 +38,7 @@ cp -r ../hybris/hybris-installer/hybris-installer/* updater/
 
 # Update install script with image details
 LOS_VER="16.0"
-sed -e "s/%DEVICE%/$DEVICE/g" -e "s/%VERSION%/$VERSION/g" -e "s/%DATE%/$DATE/g" -e "s/%IMAGE_SIZE%/${IMAGE_SIZE}M/g" -e "s/%DST_PKG%/$DST_PKG/g" -e "s/%LOS_VER%/$LOS_VER/g" -i updater/META-INF/com/google/android/update-binary
+sed -e "s/%DEVICE%/$DEVICE/g" -e "s/%VERSION%/$VERSION/g" -e "s/%IMAGE_SIZE%/${IMAGE_SIZE}M/g" -e "s/%DST_PKG%/$DST_PKG/g" -e "s/%LOS_VER%/$LOS_VER/g" -i updater/META-INF/com/google/android/update-binary
 
 # Pack updater .zip
 pushd updater # sfe-$DEVICE-$RELEASE_ID/updater
