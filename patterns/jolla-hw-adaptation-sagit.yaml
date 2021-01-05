@@ -94,6 +94,9 @@ Requires:
 - nfcd-binder-plugin
 - jolla-settings-system-nfc
 
+# For suspend to work with enabled Wi-Fi on newer Qualcomm devices
+- sailfish-connman-plugin-suspend
+
 # For torch
 - jolla-settings-system-flashlight
 
