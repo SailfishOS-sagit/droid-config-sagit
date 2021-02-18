@@ -1,0 +1,6 @@
+Description: Pattern with packages for sagit configurations
+Name: jolla-configuration-sagit
+Requires:
+- patterns-sailfish-device-configuration-sagit
+
+Summary: Jolla Configuration sagit
