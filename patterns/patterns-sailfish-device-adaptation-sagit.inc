@@ -38,6 +38,9 @@ Requires: pulseaudio-modules-droid
 Requires: pulseaudio-modules-droid-hidl
 Requires: audiosystem-passthrough-dummy-af
 
+# For sagit: camera requires audiopolicy service
+Requires: miniaudiopolicy
+
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
