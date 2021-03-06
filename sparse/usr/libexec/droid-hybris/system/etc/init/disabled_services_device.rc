@@ -1,0 +1,14 @@
+service time_daemon /vendor/bin/time_daemon_HYBRIS_DISABLED
+    override
+
+service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service_HYBRIS_DISABLED
+    override
+
+service wifidisplayhalservice /vendor/bin/wifidisplayhalservice_HYBRIS_DISABLED
+    override
+
+service update_verifier_nonencrypted /system/bin/update_verifier_HYBRIS_DISABLED nonencrypted
+    override
+
+service update_verifier /system/bin/update_verifier_HYBRIS_DISABLED ${vold.decrypt}
+    override
