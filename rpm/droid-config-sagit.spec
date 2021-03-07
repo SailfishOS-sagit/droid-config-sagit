@@ -11,6 +11,8 @@
 # Community HW adaptations need this
 %define community_adaptation 1
 
+%define android_version_major 10
+
 # Device-specific ofono configuration
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
