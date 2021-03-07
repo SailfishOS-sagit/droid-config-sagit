@@ -6,7 +6,7 @@
 %define rpm_device sagit
 %define dcd_path ./
 # Adjust this for your device
-%define pixel_ratio 1.8
+%define pixel_ratio 1.75
 
 # Community HW adaptations need this
 %define community_adaptation 1
