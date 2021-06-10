@@ -88,7 +88,6 @@ Requires: geoclue-provider-hybris
 # NFC for devices using Android 8 or newer as base
 Requires: nfcd-binder-plugin
 Requires: jolla-settings-system-nfc
-Requires: nfcd-mce-plugin
 
 # For torch
 Requires: jolla-settings-system-flashlight
