@@ -54,6 +54,9 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 #Requires: mapplauncherd-booster-silica-qt5-media
 
+# For suspend to work with enabled Wi-Fi on newer Qualcomm devices
+Requires: sailfish-connman-plugin-suspend
+
 %description -n patterns-sailfish-device-configuration-sagit
 Pattern with packages for sagit configurations
 
