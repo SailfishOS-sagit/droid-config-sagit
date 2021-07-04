@@ -32,6 +32,9 @@ Requires: sailfish-content-graphics-z%{icon_res}
 # For multi-SIM devices
 Requires: jolla-settings-networking-multisim
 
+# Include SailfishSecrets support
+Requires: sailfishsecretsdaemon-secretsplugins-default
+
 # For devices which support NFC
 Requires: nfcd-binder-plugin
 Requires: jolla-settings-system-nfc
