@@ -19,6 +19,10 @@ Requires: libhybris-libEGL
 Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
+# Telephony
+Requires: ofono-ril-binder-plugin
+Requires: dummy_netd
+
 # Sensors
 Requires: hybris-libsensorfw-qt5
 

@@ -13,6 +13,10 @@
 # Community HW adaptations need this
 %define community_adaptation 1
 
+# Device-specific ofono configuration
+Provides: ofono-configs
+Obsoletes: ofono-configs-mer
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-sagit.inc
 %include patterns/patterns-sailfish-device-configuration-sagit.inc
