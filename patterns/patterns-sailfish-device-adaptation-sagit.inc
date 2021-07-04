@@ -66,7 +66,9 @@ Requires: usb-moded
 Requires: rfkill
 
 # enable device lock and allow to select untrusted software
-Requires: jolla-devicelock-daemon-encsfa
+#Requires: jolla-devicelock-daemon-encsfa
+Requires: sailfish-fpd-community 
+Requires: sailfish-devicelock-fpd
 
 # Enable home encryption
 #Requires: sailfish-device-encryption
