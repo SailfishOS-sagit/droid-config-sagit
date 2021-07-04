@@ -54,6 +54,17 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 #Requires: mapplauncherd-booster-silica-qt5-media
 
+# Add pre-installed some jolla/sailfish apps
+Requires: sailfish-office
+Requires: jolla-calculator
+Requires: jolla-email
+Requires: jolla-notes
+Requires: jolla-clock
+Requires: jolla-mediaplayer
+Requires: jolla-calendar
+Requires: sailfish-weather
+Requires: sailfish-utilities
+
 # For suspend to work with enabled Wi-Fi on newer Qualcomm devices
 Requires: sailfish-connman-plugin-suspend
 
