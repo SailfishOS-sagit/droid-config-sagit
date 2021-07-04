@@ -36,6 +36,9 @@ Requires: jolla-settings-networking-multisim
 Requires: nfcd-binder-plugin
 Requires: jolla-settings-system-nfc
 
+# For torch
+Requires: jolla-settings-system-flashlight
+
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
 Requires: jolla-settings-accounts-extensions-3rd-party-all
