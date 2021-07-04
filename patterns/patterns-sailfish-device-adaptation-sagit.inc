@@ -24,6 +24,7 @@ Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
 
 # Bluetooth
+Requires: bluez5-tools
 Requires: bluebinder
 
 # Sensors
