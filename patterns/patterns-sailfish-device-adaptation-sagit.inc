@@ -18,7 +18,7 @@ Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
 # Telephony
-Requires: ofono-ril-binder-plugin
+Requires: ofono-binder-plugin
 Requires: dummy_netd
 
 # Bluetooth
