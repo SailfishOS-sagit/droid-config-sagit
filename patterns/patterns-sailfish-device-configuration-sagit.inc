@@ -59,7 +59,8 @@ Requires: jolla-mediaplayer
 Requires: jolla-calendar
 Requires: sailfish-weather
 Requires: sailfish-utilities
-#Requires: sailfish-filemanager
+Requires: sailfish-audiorecorder
+Requires: jolla-settings-networking-plugin-vpn-openfortivpn
 
 %description -n patterns-sailfish-device-configuration-sagit
 Pattern with packages for sagit configurations
