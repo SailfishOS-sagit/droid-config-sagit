@@ -22,6 +22,7 @@ Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 Obsoletes: ofono-configs-binder
 
+Requires: libgbinder-tools
 Obsoletes: qt5-qpa-surfaceflinger-plugin
 
 Provides: usb-moded-configs
