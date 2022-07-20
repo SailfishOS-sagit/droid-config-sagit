@@ -11,10 +11,6 @@
 # Community HW adaptations need this
 %define community_adaptation 1
 
-# OTA via self-hosted repo needs to have all adaptation-community repos removed
-Conflicts: community-adaptation-testing
-Obsoletes: community-adaptation-testing
-
 %define android_version_major 10
 
 # Device-specific ofono configuration
