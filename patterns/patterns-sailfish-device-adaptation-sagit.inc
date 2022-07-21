@@ -12,6 +12,10 @@ Requires: droid-config-sagit-bluez5
 Requires: droid-hal-version-sagit
 Requires: droid-biometry-fp
 
+# Aliendalvik
+Requires: aliendalvik
+Requires: lxc
+
 # Hybris packages
 Requires: libhybris-libEGL
 Requires: libhybris-libGLESv2
