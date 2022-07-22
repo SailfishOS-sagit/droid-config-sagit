@@ -33,10 +33,3 @@ Provides: usb-moded-configs
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-sagit.inc
 %include patterns/patterns-sailfish-device-configuration-sagit.inc
-
-%pretrans -p <lua>
-path = "/lib/firmware"
-st = posix.stat(path)
-if st and st.type == "link" then
-  os.remove(path)
-end
